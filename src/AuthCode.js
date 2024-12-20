@@ -23,7 +23,7 @@ async function authCode() {
     const clientId = '76ff0c3306a0409f9f72afa8221e1d10';  
     const redirectUri = 'http://localhost:5173/callback';
 
-    const scope = 'user-read-private user-read-email';
+    const scope = 'user-read-private user-read-email user-top-read';
     const authUrl = new URL("https://accounts.spotify.com/authorize")
 
     const params =  {
